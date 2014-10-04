@@ -1,6 +1,5 @@
 #include <LibAL/AudioPlayer.h>
 
-int x = 0;
 AudioPlayer::AudioPlayer()
 {
 
@@ -49,10 +48,9 @@ void AudioPlayer::SeekOffset(float offset)
 		return;
 
 	ALint tot = 0;
-	alGetBufferi(pBuffer->GetBufferID(), AL_SIZE, &tot); //size of buffer (in bytes)
-	alSourcei(m_source[0], AL_BYTE_OFFSET, offset * tot); //positionning...
-	//alSourcePlay(m_source[0]);
-	// TODO
+	alGetBufferi(pBuffer->GetBufferID(), AL_SIZE, &tot);
+	alSourcei(m_source[0], AL_BYTE_OFFSET, offset * tot);
+
 }
 
 void AudioPlayer::SeekSecond(float second)
