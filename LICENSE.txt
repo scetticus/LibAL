@@ -1,0 +1,1 @@
+Zero license. I made it because i needed a simple and easy to use audio library.
