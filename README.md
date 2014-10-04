@@ -17,7 +17,7 @@ http://www.mega-nerd.com/libsndfile/
 http://www.openal.org/
 
 
-Setup
+Usage
 =====
 See examples/ directory
 
