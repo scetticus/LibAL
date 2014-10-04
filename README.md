@@ -3,6 +3,8 @@ LibAL
 
 A simple C++ OpenAL wrapper for basic audio handling!
 
+- The library contains interfaces for dynamic loading.
+
 Setup
 =====
 
